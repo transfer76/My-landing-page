@@ -8,19 +8,9 @@
 }
 
 .container {
-  max-width: 70%;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-}
-
-.column-60 {
-  width: 60%;
-  float: left;
-}
-
-.column-40 {
-  width: 40%;
-  float: left;
 }
 
 .column-1-2 {

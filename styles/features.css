@@ -6,8 +6,24 @@
 .features-item {
   display: inline-block;
   background: #e3e3e3;
-  max-width: 450px;
+  max-width: 350px;
   padding: 10px 50px;
+  height: 450px;
+  margin: 0 10px;
+}
+
+.features-image {
+  display: inline-block;
+  float: right;
+  width: 200px;
+  margin-right:60px;
+}
+
+.features-photo {
+  border: 2px solid blue;
+  border-radius: 5px;
+  height: auto;
+  width: 250px;
 }
 
 .features-item p {

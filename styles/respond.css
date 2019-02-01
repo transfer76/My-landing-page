@@ -7,6 +7,12 @@
   padding-top: 40px;
 }
 
+.member-details {
+  display: inline-block;
+  max-width: 270px;
+  margin-left: 20px;
+}
+
 .member-image {
   display: inline-block;
   float: left;

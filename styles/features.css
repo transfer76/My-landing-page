@@ -6,17 +6,17 @@
 .features-item {
   display: inline-block;
   background: #e3e3e3;
-  max-width: 350px;
+  max-width: 300px;
   padding: 10px 50px;
-  height: 450px;
-  margin: 0 10px;
+  margin: 5px;
+  border-radius: 10px;
 }
 
 .features-image {
   display: inline-block;
   float: right;
-  width: 200px;
-  margin-right:60px;
+  padding: 0 40px;
+  margin: 5px;
 }
 
 .features-photo {
@@ -24,8 +24,4 @@
   border-radius: 5px;
   height: auto;
   width: 250px;
-}
-
-.features-item p {
-  margin-bottom: 1em;
 }

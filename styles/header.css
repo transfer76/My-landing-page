@@ -37,7 +37,7 @@
   font-weight: bold;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1100px) {
   .header {
     position: inherit;
     width: auto;
@@ -52,8 +52,4 @@
   }
 }
 
-@media (max-width) {
-  .header-nav-item {
-    display: block;
-  }
-}
+

@@ -9,3 +9,11 @@
   text-align: center;
   padding: .5em;
 }
+
+@media (max-width: 1100px) {
+  .footer {
+    position: inherit;
+    width: auto;
+    background: #aaaaaa;
+  }
+}

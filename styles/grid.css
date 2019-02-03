@@ -38,7 +38,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1100px) {
   .column-1-2 {
     float: none;
     width: auto;

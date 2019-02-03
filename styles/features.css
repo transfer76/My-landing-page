@@ -7,12 +7,16 @@
   padding-top: 40px;
 }
 
+.features-details-block {
+  display: block;
+}
+
 .features-details {
   display: inline-block;
   background: #e3e3e3;
   max-width: 300px;
   padding: 10px 50px;
-  margin: 5px;
+  margin: 10px;
   border-radius: 10px;
 }
 

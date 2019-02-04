@@ -14,9 +14,8 @@
 }
 
 .member-image {
-  display: inline-block;
   float: left;
-  width: 160px;
+  width: 200px;
 }
 
 .member-photo {

@@ -15,6 +15,10 @@
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/respond.css">
   <link rel="stylesheet" href="styles/footer.css">
+  <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="styles/parallax.js-1.5.0/parallax.min.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="styles/header.js"></script>
 </head>
 <body>
   <div class="header">
@@ -25,7 +29,7 @@
       <div class="header-nav">
         <ul>
           <li class="header-nav-item">
-            <a class="header-nav-link" href="#intro">О нас</a>
+            <a class="header-nav-link" href="#intro" title="привет">О нас</a>
           </li>
           <li class="header-nav-item">
             <a class="header-nav-link" href="#contacts">Контакты</a>
@@ -34,7 +38,7 @@
             <a class="header-nav-link" href="#respond">Отзывы</a>
           </li>
           <li class="header-nav-item">
-            <a class="header-nav-link" href="#price">Расчитать цену</a>
+            <a class="header-nav-link" id='work' href="#price">Расчитать цену</a>
           </li>
           <li class="header-nav-item">
             <a class="header-nav-link" href="#buy">Купить</a>
@@ -46,7 +50,7 @@
       </div>
     </div>
   </div>
-  <div class="intro text-center" id="intro">
+  <div class="intro text-center" id="intro" data-parallax="scroll" data-image-src="images/1.png">
     <img class="intro-logo" src="images/logo.jpg" alt="logo">
     <h1 class="title-large">Мы продаём ВОЗДУХ!</h1>
     <h2 class="text-lead">Наслаждайтесь</h2>

@@ -12,3 +12,8 @@
   background: #8aba56;
   color: #fff;
 }
+
+.button-green:hover {
+  background: #6a9a36;
+  transition: all ease .3s;
+}

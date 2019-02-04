@@ -11,12 +11,13 @@
   display: inline;
   width: 134px;
   height:36px;
+  margin-top: 20px;
 }
 
 .header-nav {
   float: right;
   vertical-align: baseline;
-  line-height: 36px;
+  line-height: 56px;
 }
 
 .header-nav-item {
@@ -29,6 +30,11 @@
   text-decoration: none;
   color: gray;
   font-weight: bold;
+}
+
+.header-nav-link:hover {
+  color: #333;
+  transition: all ease .3s;
 }
 
 .header-nav-link-call {

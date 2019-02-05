@@ -23,6 +23,7 @@ body {
 .text-lead {
   font-size: 30px;
   line-height: 30px;
+  padding: .5em 1.5em;
 }
 
 .text-small {

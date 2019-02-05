@@ -1,35 +1,28 @@
 .features {
   padding: 40px 0;
-  background: #f3f3f3;
-}
-
-.features-members {
-  padding-top: 40px;
-  text-align: center;
 }
 
 .features-details-block {
-  margin-left: 200px;
+  padding: 0 30px;
 }
 
 .features-details {
-  display: inline-block;
+  float: right;
   background: #e3e3e3;
-  max-width: 250px;
-  padding: 10px 50px;
   border-radius: 10px;
+  display: inline-block;
   margin-bottom: 1em;
+  max-width: 400px;
 }
 
 .features-image {
+  display: inline-block;
   float: left;
-  max-width: 250px;
-  margin-bottom: 1em;
+  padding-left: 30px;
 }
-
 .features-photo {
-  border: 2px solid blue;
-  border-radius: 5px;
-  height: auto;
-  width: 200px;
+  border: 2px solid #3b89ec;
+  border-radius: 10px;
+  width: 210px;
+  margin-bottom: 1em;
 }

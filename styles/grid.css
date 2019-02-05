@@ -8,7 +8,7 @@
 }
 
 .container {
-  max-width: 80%;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -33,7 +33,7 @@
   clear: both;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 480px) {
   .column-1-2 {
     float: none;
     width: auto;

@@ -8,22 +8,21 @@
 }
 
 .container {
-  max-width: 80%;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
-col {
+.col {
   box-sizing: border-box;
+  float: left;
 }
 
 .column-1-2 {
   width: 50%;
-  float: left;
 }
 
 .column-1-3 {
   width: 33.33%;
-  float: left;
 }
 
 .container:after {
@@ -34,7 +33,7 @@ col {
   clear: both;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 480px) {
   .column-1-2 {
     float: none;
     width: auto;

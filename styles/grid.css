@@ -12,18 +12,17 @@
   margin: 0 auto;
 }
 
-col {
+.col {
   box-sizing: border-box;
+  float: left;
 }
 
 .column-1-2 {
   width: 50%;
-  float: left;
 }
 
 .column-1-3 {
   width: 33.33%;
-  float: left;
 }
 
 .container:after {

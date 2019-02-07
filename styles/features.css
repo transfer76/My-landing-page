@@ -4,10 +4,10 @@
 
 .features-details-block {
   padding: 0 30px;
+  margin-left: 244px;
 }
 
 .features-details {
-  float: right;
   background: #e3e3e3;
   border-radius: 10px;
   display: inline-block;

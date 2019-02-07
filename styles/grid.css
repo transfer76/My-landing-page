@@ -33,7 +33,7 @@
   clear: both;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 960px) {
   .column-1-2 {
     float: none;
     width: auto;

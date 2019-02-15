@@ -18,11 +18,27 @@
 .features-image {
   display: inline-block;
   float: left;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 .features-photo {
   border: 2px solid #3b89ec;
   border-radius: 10px;
   width: 210px;
   margin-bottom: 1em;
+}
+
+@media (max-width: 640px) {
+  .features-image {
+    display: inherit;
+    float: none;
+    text-align: center;
+    width: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .features-details-block {
+    margin-left: 0;
+    text-align: center;
+  }
 }
